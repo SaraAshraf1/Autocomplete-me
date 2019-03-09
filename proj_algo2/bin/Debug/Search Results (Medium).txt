@@ -1,0 +1,48 @@
+[Using Search Links Search Links (Medium).txt] 
+
+=============
+CASE1: Prefix
+=============
+Try to type:
+1) that kind (letter by letter)
+=============================
+Initial sample output:
+	182,537 sentences					(with t)
+	 16,447 sentences					(with that)
+	  31 sentences 					    (with that ki)
+	  1 sentence 					    (with that kind)
+	
+
+2) off their
+============================
+Initial sample output:
+	403 sentences					(with off the)
+	 18 sentences					(with off thei, off their)	
+
+
+=============================
+CASE2: Correction + Prefix
+=============================
+Type: udmenstratoin estemats
+==============================
+1 sentence after correcting the words using Dictionary (Medium) to (administration estimates)
+administration estimates that
+
+=============================
+CASE3: Substring
+=============================
+Type: southern hemispheres
+============================
+output:
+and southern hemispheres
+
+=============================
+CASE4: Correction + Substring
+=============================
+Type: abiting
+============================
+2 sentences after correcting the word using Dictionary (Medium) to (abetting)
+and abetting the
+aiding and abetting
+
+Continue as the same way..
